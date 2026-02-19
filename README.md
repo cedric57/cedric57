@@ -102,9 +102,9 @@
 
 ## 📊 Stats GitHub
 
-![Stats](https://github-readme-stats.vercel.app/api?username=[TON_PSEUDO]&show_icons=true&theme=merko)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=[TON_PSEUDO]&layout=compact&theme=merko)
-![Streak](https://streak-stats.demolab.com?user=[TON_PSEUDO]&theme=merko)
+![Stats](https://github-readme-stats.vercel.app/api?username=cedric57&show_icons=true&theme=merko)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cedric57&layout=compact&theme=merko)
+![Streak](https://streak-stats.demolab.com?user=cedric57&theme=merko)
 
 </div>
 
