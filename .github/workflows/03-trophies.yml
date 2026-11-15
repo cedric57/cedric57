@@ -1,0 +1,32 @@
+# 03-trophies.yml — génère les trophées en SVG, committés dans dist/
+# Servi par raw.githubusercontent.com → camo l'accepte toujours (comme le serpent).
+name: 03 · Trophées
+
+on:
+  schedule:
+    - cron: "15 5 * * *"   # 05h15 : après le serpent (05h00), avant les contenus (06h00)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Générer dist/github-trophies.svg
+        run: node .github/scripts/03-trophies.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit si les trophées ont changé
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: maj trophées"
+          file_pattern: dist/github-trophies.svg
