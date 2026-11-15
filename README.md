@@ -146,7 +146,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy-cedric57.vercel.app/?username=cedric57&theme=matrix&no-frame=true&no-bg=true&margin-w=8&column=7" alt="Trophées GitHub de cedric57" />
+  <img src="https://raw.githubusercontent.com/cedric57/cedric57/main/dist/github-trophies.svg" alt="Trophées GitHub de cedric57 : étoiles, commits, PRs, issues, followers, repos et reviews" />
 </p>
 
 <p align="center">⭐ <strong>Merci de visiter mon profil !</strong> Une idée, un projet, une question ? Écris-moi.</p>
