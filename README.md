@@ -80,9 +80,7 @@
 
 ## 📺 Dernière vidéo
 
-<!-- YOUTUBE-VIDEOS-LIST:START -->
-- [🎬 Bar chart race — Les géants de l'acier (2005 → 2025)](https://www.youtube.com/@statdash)
-<!-- YOUTUBE-VIDEOS-LIST:END -->
+<!-- YOUTUBE-VIDEOS-LIST:START -->- [Perl surges 1.14 pts | TIOBE NOVEMBER 2026 #Shorts](https://www.youtube.com/shorts/3P_XO5DxxdE)<!-- YOUTUBE-VIDEOS-LIST:END -->
 
 <sub>Mis à jour chaque matin par <code>02-latest-content.yml</code>.</sub>
 
