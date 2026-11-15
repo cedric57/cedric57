@@ -80,18 +80,16 @@
 
 ## 📺 Dernière vidéo
 
-<!-- YOUTUBE-VIDEOS-LIST:START -->
-- [🎬 Bar chart race — Les géants de l'acier (2005 → 2025)](https://www.youtube.com/@statdash)
-<!-- YOUTUBE-VIDEOS-LIST:END -->
+<!-- YOUTUBE-VIDEOS-LIST:START -->- [Perl surges 1.14 pts | TIOBE NOVEMBER 2026 #Shorts](https://www.youtube.com/shorts/3P_XO5DxxdE)<!-- YOUTUBE-VIDEOS-LIST:END -->
 
 <sub>Mis à jour chaque matin par <code>02-latest-content.yml</code>.</sub>
 
 ## 📝 Derniers articles
 
 <!-- BLOG-POST-LIST:START -->
-- [n8n vs Make en 2026 : le comparatif honnête](https://cedric-grun.fr/blog/n8n-vs-make)
-- [Générer 100 vidéos avec Remotion](https://cedric-grun.fr/blog/remotion-100-videos)
-- [Astro + Cloudflare Pages : le combo gratuit](https://cedric-grun.fr/blog/astro-cloudflare)
+- [Base64 PHP : Le Guide Ultime de l&#39;Encodage &lpar;base64_encode&rpar;](https://cedric-grun.fr/blog/guide-base64-encode-php/)
+- [Qu&#39;est-ce que l&#39;encodage Base64 ? Guide complet et cas d&#39;usage](https://cedric-grun.fr/blog/qu-est-ce-que-le-base64/)
+- [Bienvenue sur mon blog technique](https://cedric-grun.fr/blog/premier-pas/)
 <!-- BLOG-POST-LIST:END -->
 
 <sub>Flux RSS du hub, synchronisé automatiquement.</sub>
