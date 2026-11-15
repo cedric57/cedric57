@@ -88,6 +88,9 @@
 ## 📝 Derniers articles
 
 <!-- BLOG-POST-LIST:START -->
+- [Base64 PHP : Le Guide Ultime de l&#39;Encodage &lpar;base64_encode&rpar;](https://cedric-grun.fr/blog/guide-base64-encode-php/)
+- [Qu&#39;est-ce que l&#39;encodage Base64 ? Guide complet et cas d&#39;usage](https://cedric-grun.fr/blog/qu-est-ce-que-le-base64/)
+- [Bienvenue sur mon blog technique](https://cedric-grun.fr/blog/premier-pas/)
 <!-- BLOG-POST-LIST:END -->
 
 <sub>Flux RSS du hub, synchronisé automatiquement.</sub>
