@@ -1,4 +1,4 @@
-# 02-latest-content.yml — derniers articles du hub + dernière vidéo YouTube
+# 02-latest-content.yml — derniers articles du hub + dernière vidéo LONGUE (Shorts exclus)
 name: 02 · Derniers contenus
 
 on:
@@ -6,11 +6,12 @@ on:
     - cron: "0 6 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   update:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - uses: actions/checkout@v4
 
@@ -22,11 +23,15 @@ jobs:
           max_post_count: 3
           commit_message: "chore: maj derniers articles"
 
-      - name: Dernière vidéo YouTube
-        uses: gautamkrishnar/blog-post-workflow@v1
+      - uses: actions/setup-node@v4
         with:
-          feed_list: "https://www.youtube.com/feeds/videos.xml?channel_id=UCX_e4D9B0Z_Drh19cWc4SgA"
-          comment_tag_name: YOUTUBE-VIDEOS-LIST
-          max_post_count: 1
-          template: "- [$title]($url)"
-          commit_message: "chore: maj dernière vidéo"
+          node-version: 22
+
+      - name: Dernière vidéo longue (Shorts exclus)
+        run: node .github/scripts/02-latest-long-video.mjs
+
+      - name: Commit si la vidéo a changé
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: maj dernière vidéo longue"
+          file_pattern: README.md
