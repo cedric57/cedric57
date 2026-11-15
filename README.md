@@ -16,7 +16,7 @@
 <p align="center">
   <a href="https://cedric-grun.fr"><img src="https://img.shields.io/badge/Hub-cedric--grun.fr-00AAFF?style=for-the-badge&logo=astro&logoColor=white" alt="Hub central cedric-grun.fr" /></a>
   <a href="https://www.youtube.com/@statdash"><img src="https://img.shields.io/badge/YouTube-StatDash-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Chaîne YouTube StatDash" /></a>
-  <a href="https://linkedin.com/in/cedric-grun"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMC40NSAyMC40NWgtMy41NXYtNS41N2MwLTEuMzMtLjAzLTMuMDQtMS44NS0zLjA0LTEuODYgMC0yLjE0IDEuNDUtMi4xNCAyLjk0djUuNjdIOS4zNlY5aDMuNDF2MS41NmguMDVjLjQ3LS45IDEuNjMtMS44NSAzLjM2LTEuODUgMy42IDAgNC4yNyAyLjM3IDQuMjcgNS40NXY2LjI5ek01LjM0IDcuNDNhMi4wNiAyLjA2IDAgMSAxIDAtNC4xMyAyLjA2IDIuMDYgMCAwIDEgMCA0LjEzek03LjEyIDIwLjQ1SDMuNTZWOWgzLjU2djExLjQ1eiIvPjwvc3ZnPg%3D%3D&logoColor=white" alt="Profil LinkedIn de Cédric Grun" /></a>
+  <a href="https://linkedin.com/in/cedric-grun"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Profil LinkedIn de Cédric Grun" /></a>
   <a href="https://buttondown.com/cedricgrun"><img src="https://img.shields.io/badge/Newsletter-Buttondown-FF6D5A?style=for-the-badge&logo=minutemailer&logoColor=white" alt="Newsletter sur Buttondown" /></a>
   <a href="mailto:cedric.grun@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Envoyer un email à Cédric" /></a>
   <a href="https://github.com/cedric57"><img src="https://img.shields.io/badge/GitHub-cedric57-181717?style=for-the-badge&logo=github&logoColor=white" alt="Profil GitHub cedric57" /></a>
@@ -80,16 +80,14 @@
 
 ## 📺 Dernière vidéo
 
-<!-- YOUTUBE-VIDEOS-LIST:START -->- [Perl surges 1.14 pts | TIOBE NOVEMBER 2026 #Shorts](https://www.youtube.com/shorts/3P_XO5DxxdE)<!-- YOUTUBE-VIDEOS-LIST:END -->
+<!-- YOUTUBE-VIDEOS-LIST:START -->
+<!-- YOUTUBE-VIDEOS-LIST:END -->
 
-<sub>Mis à jour chaque matin par <code>02-latest-content.yml</code>.</sub>
+<sub>Carte générée chaque matin par <code>02-latest-content.yml</code> — Shorts exclus.</sub>
 
 ## 📝 Derniers articles
 
 <!-- BLOG-POST-LIST:START -->
-- [Base64 PHP : Le Guide Ultime de l&#39;Encodage &lpar;base64_encode&rpar;](https://cedric-grun.fr/blog/guide-base64-encode-php/)
-- [Qu&#39;est-ce que l&#39;encodage Base64 ? Guide complet et cas d&#39;usage](https://cedric-grun.fr/blog/qu-est-ce-que-le-base64/)
-- [Bienvenue sur mon blog technique](https://cedric-grun.fr/blog/premier-pas/)
 <!-- BLOG-POST-LIST:END -->
 
 <sub>Flux RSS du hub, synchronisé automatiquement.</sub>
@@ -126,14 +124,8 @@
 ## 📊 Stats GitHub
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-cedric57.vercel.app/api?username=cedric57&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&locale=fr&theme=merko" />
-    <img src="https://github-readme-stats-cedric57.vercel.app/api?username=cedric57&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&locale=fr&theme=default" alt="Stats GitHub de Cédric Grun" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-cedric57.vercel.app/api/top-langs?username=cedric57&layout=compact&hide_border=true&langs_count=10&locale=fr&theme=merko" />
-    <img src="https://github-readme-stats-cedric57.vercel.app/api/top-langs?username=cedric57&layout=compact&hide_border=true&langs_count=10&locale=fr&theme=default" alt="Langages les plus utilisés par Cédric Grun" />
-  </picture>
+  <img src="https://github-readme-stats-cedric57.vercel.app/api?username=cedric57&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&locale=fr&theme=merko" alt="Stats GitHub de Cédric Grun : étoiles, commits, PRs et issues" />
+  <img src="https://github-readme-stats-cedric57.vercel.app/api/top-langs?username=cedric57&layout=compact&hide_border=true&langs_count=10&locale=fr&theme=merko" alt="Langages les plus utilisés par Cédric Grun" />
 </p>
 
 <p align="center">

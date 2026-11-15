@@ -1,5 +1,5 @@
-// Sélectionne la dernière vidéo LONGUE de la chaîne (Shorts exclus)
-// et met à jour la section YOUTUBE-VIDEOS-LIST de README.md.
+// Sélectionne la dernière vidéo LONGUE (Shorts exclus) et écrit une carte
+// avec miniature cliquable dans la section YOUTUBE-VIDEOS-LIST de README.md.
 import { readFile, writeFile } from 'node:fs/promises';
 
 const CHANNEL_ID = 'UCX_e4D9B0Z_Drh19cWc4SgA';
@@ -7,15 +7,15 @@ const FEED_URL = `https://www.youtube.com/feeds/videos.xml?channel_id=${CHANNEL_
 const README_PATH = 'README.md';
 const TAG_START = '<!-- YOUTUBE-VIDEOS-LIST:START -->';
 const TAG_END = '<!-- YOUTUBE-VIDEOS-LIST:END -->';
-const MAX_ENTRIES = 15; // le flux RSS ne contient que les 15 dernières vidéos
+const MAX_ENTRIES = 15;
 
 const HEADERS = {
   'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36',
   'Accept-Language': 'en-US,en;q=0.9',
   'Cookie': 'CONSENT=YES+1',
 };
-
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const escHtml = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
 async function fetchRetry(url, options = {}, tries = 2) {
   for (let i = 1; ; i++) {
@@ -80,8 +80,18 @@ if (!chosen) {
   process.exit(0);
 }
 
-const safeTitle = chosen.title.replace(/([\[\]])/g, '\\$1');
-const block = `${TAG_START}\n- [${safeTitle}](${chosen.url})\n${TAG_END}`;
+const date = new Intl.DateTimeFormat('fr-FR', { day: 'numeric', month: 'short', year: 'numeric' }).format(new Date(chosen.published));
+const title = escHtml(chosen.title);
+const url = escHtml(chosen.url);
+const card = [
+  '<table>',
+  '  <tr>',
+  `    <td width="240"><a href="${url}"><img src="https://i.ytimg.com/vi/${chosen.id}/mqdefault.jpg" width="240" alt="Miniature : ${title}" /></a></td>`,
+  `    <td><a href="${url}"><b>🎬 ${title}</b></a><br /><sub>StatDash · publiée le ${date} · vidéo longue</sub></td>`,
+  '  </tr>',
+  '</table>',
+].join('\n');
+const block = `${TAG_START}\n${card}\n${TAG_END}`;
 
 const readme = await readFile(README_PATH, 'utf8');
 const start = readme.indexOf(TAG_START);
@@ -94,4 +104,4 @@ const updated = readme.slice(0, start) + block + readme.slice(end + TAG_END.leng
 
 if (updated === readme) { console.log('Section déjà à jour.'); process.exit(0); }
 await writeFile(README_PATH, updated);
-console.log(`✅ Dernière vidéo longue : ${chosen.title}`);
+console.log(`✅ Carte générée pour : ${chosen.title}`);
