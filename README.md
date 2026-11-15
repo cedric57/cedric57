@@ -129,12 +129,12 @@
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=cedric57&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&locale=fr&theme=merko" />
-  <img src="https://github-readme-stats.vercel.app/api?username=cedric57&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&locale=fr&theme=default" alt="Stats GitHub de Cédric Grun : étoiles, commits, PRs et issues" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-cedric57.vercel.app/api?username=cedric57&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&locale=fr&theme=merko" />
+  <img src="https://github-readme-stats-cedric57.vercel.app/api?username=cedric57&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&locale=fr&theme=default" alt="Stats GitHub de Cédric Grun : étoiles, commits, PRs et issues" />
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs?username=cedric57&layout=compact&hide_border=true&langs_count=8&locale=fr&theme=merko" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=cedric57&layout=compact&hide_border=true&langs_count=8&locale=fr&theme=default" alt="Langages les plus utilisés par Cédric Grun" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-cedric57.vercel.app/api/top-langs?username=cedric57&layout=compact&hide_border=true&langs_count=10&locale=fr&theme=merko" />
+  <img src="https://github-readme-stats-cedric57.vercel.app/api/top-langs?username=cedric57&layout=compact&hide_border=true&langs_count=10&locale=fr&theme=default" alt="Langages les plus utilisés par Cédric Grun" />
 </picture>
 </p>
 
