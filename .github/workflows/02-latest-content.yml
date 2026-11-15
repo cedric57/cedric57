@@ -13,7 +13,7 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Derniers articles du hub (RSS)
         uses: gautamkrishnar/blog-post-workflow@v1
@@ -23,7 +23,7 @@ jobs:
           max_post_count: 3
           commit_message: "chore: maj derniers articles"
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: 22
 
