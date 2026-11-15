@@ -81,6 +81,12 @@
 ## 📺 Dernière vidéo
 
 <!-- YOUTUBE-VIDEOS-LIST:START -->
+<table>
+  <tr>
+    <td width="240"><a href="https://www.youtube.com/watch?v=6V7mSnOigSA"><img src="https://i.ytimg.com/vi/6V7mSnOigSA/mqdefault.jpg" width="240" alt="Miniature : TIOBE Index (NOVEMBER 2026): Dart surprisingly breaks into the top 20 | Bar Chart Race" /></a></td>
+    <td><a href="https://www.youtube.com/watch?v=6V7mSnOigSA"><b>🎬 TIOBE Index (NOVEMBER 2026): Dart surprisingly breaks into the top 20 | Bar Chart Race</b></a><br /><sub>StatDash · publiée le 12 nov. 2026 · vidéo longue</sub></td>
+  </tr>
+</table>
 <!-- YOUTUBE-VIDEOS-LIST:END -->
 
 <sub>Carte générée chaque matin par <code>02-latest-content.yml</code> — Shorts exclus.</sub>
