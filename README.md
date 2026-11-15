@@ -80,7 +80,9 @@
 
 ## 📺 Dernière vidéo
 
-<!-- YOUTUBE-VIDEOS-LIST:START -->- [Perl surges 1.14 pts | TIOBE NOVEMBER 2026 #Shorts](https://www.youtube.com/shorts/3P_XO5DxxdE)<!-- YOUTUBE-VIDEOS-LIST:END -->
+<!-- YOUTUBE-VIDEOS-LIST:START -->
+- [TIOBE Index (NOVEMBER 2026): Dart surprisingly breaks into the top 20 | Bar Chart Race](https://www.youtube.com/watch?v=6V7mSnOigSA)
+<!-- YOUTUBE-VIDEOS-LIST:END -->
 
 <sub>Mis à jour chaque matin par <code>02-latest-content.yml</code>.</sub>
 
